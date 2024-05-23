@@ -1,0 +1,150 @@
+.mynav{
+  width: 99%;
+  border: 1px dashed darkcyan;
+  background-color: lightskyblue;
+}
+.mynav h2{
+  padding: 10px;
+}
+.mynav ul{
+  display: inline-flex;
+  list-style: none;
+}
+
+.navUl{
+  text-align: right;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+.loginForm{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border: 1px solid black;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+.help{
+  width: 80%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: justify;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mynav li{
+  padding-right: 10px;
+}
+
+
+.cartImage{
+  max-width: 150px;
+}
+
+
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+border: 1px solid black;
+margin:auto;
+}
+
+.card {
+border:1px solid #ddd;
+  background-color: #e7cdcd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  border-radius: 8px;
+  max-width: 100%;
+  /* height: auto; */
+  max-height: 300px;
+}
+
+.card h2 {
+  font-size: 1.5em;
+  margin: 15px 0;
+}
+
+.old-price {
+  color: #888;
+  text-decoration: line-through;
+}
+
+.new-price {
+  color: #e74c3c;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.add-to-cart {
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 1em;
+  transition: background-color 0.2s;
+}
+
+.add-to-cart:hover {
+  background-color: #2980b9;
+}
+
+@media (min-width: 768px) {
+  .card {
+      flex: 0 0 30%;
+  }
+}
+
+@media (max-width: 767px) {
+  .card {
+      flex: 0 0 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+      flex: 0 0 100%;
+  }
+}
+
+
+.adminBulb{
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 100%;
+}
+
+.sellerBulb{
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 100%;
+}
